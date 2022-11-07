@@ -16,19 +16,19 @@ namespace UI.ViewModels
 		private clsPersona persona;
 
 
-
 		public clsPersona Persona { get { return persona; } set { persona = value; } }
 		public String NombreCompleto
 		{
 			get
 			{
+				
 				return Persona.NombreCompleto;
 				
 			}
 			set
 			{
 				Persona.NombreCompleto = value;
-				NotifyPropertyChanged();
+				
 			}
 		}
 		public String Nombre { 

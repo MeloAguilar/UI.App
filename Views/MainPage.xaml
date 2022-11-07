@@ -12,10 +12,8 @@
             HorizontalOptions="Center">
         <Entry 
             Text="{Binding Nombre}" />
-        <Entry
-            Text="{Binding Apellidos}"
-             />
+ 
         <Label
-            Text="{Binding NombreCompleto}"/>
+            Text="{Binding Nombre}"/>
     </VerticalStackLayout>
 </ContentPage>
